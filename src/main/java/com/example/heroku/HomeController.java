@@ -15,4 +15,8 @@ public class HomeController {
   public String test() {
     return "test";
   }
+  @GetMapping("/nybranch")
+  public String nybranch()  {
+    return "ny branch";
+  }
 }
